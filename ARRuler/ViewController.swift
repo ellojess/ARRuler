@@ -95,7 +95,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         updateText(text: "\(distance)", atPosition: end.position)
         
-        // distance = √((x2-x1)^2 + (y2-y1)^2 + (z2-z1)^2)
+        // formula for distance = √((x2-x1)^2 + (y2-y1)^2 + (z2-z1)^2)
     }
     
     func updateText(text: String, atPosition: SCNVector3){
